@@ -1,8 +1,4 @@
 
-data "aws_availability_zones" "available" {
-  state = "available"
-}
-
 module "vpc" {
   source = "github.com/terraform-aws-modules/terraform-aws-vpc.git?ref=v2.15.0"
   name   = var.vpc_name
