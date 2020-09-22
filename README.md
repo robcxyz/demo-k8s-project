@@ -7,6 +7,9 @@ cd cluster
 terraform init 
 terraform apply 
 aws eks --region us-east-1 update-kubeconfig --name my-cluster
+cd ../helm-chart 
+tf init 
+tf apply 
 ```
 
 Dependencies:
