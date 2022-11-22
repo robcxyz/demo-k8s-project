@@ -1,9 +1,0 @@
-.idea
-
-# Terraform and terragrunt
-*.tfstate*
-*.tfplan
-.terragrunt-cache/
-.terraform
-
-secrets.yaml
